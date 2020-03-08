@@ -76,8 +76,7 @@ def read_lines(filepath=None, first_line=None):
     return lines
 
 
-if __name__ == "__main__":
-
+def main():
     # Parameters that can be changed by advanced users
     QUAVER_DELIMITER = '-'  # Dash-separated list of chords
     ICON_DELIMITER = ' '  # Chords separation
@@ -274,3 +273,7 @@ if __name__ == "__main__":
             print('Your song in TXT converted to doremi notation with do key is located at:', doremi_ascii_path)
 
     os.chdir(mycwd)
+
+
+if __name__ == "__main__":
+    main()
