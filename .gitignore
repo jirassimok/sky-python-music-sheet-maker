@@ -1,8 +1,16 @@
 *.html
-*.pyc
 *.png
 *.svg
 /songs_out
 /songs
 /venv
 .idea
+
+# Python
+__pycache__/
+*.py[cod]
+## Setuptools
+build/
+dist/
+sdits/
+.egg-info
